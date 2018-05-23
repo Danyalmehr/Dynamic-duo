@@ -23,7 +23,9 @@ table
 {
 	border-bottom-style:solid;
 	padding-bottom:10px;
-	margin:2%;
+	margin-left: 40%;
+	margin-right: -40%;
+
 	
 	}
 td
@@ -63,12 +65,12 @@ background-color: transparent;
 /*---------------------------------------------------------------------C_O_N_T_A_I_N_E_R --------------------------------------------------------------------*/
 
 #containerhome {
-	left:320px;
-	align-content:center;
+	
 	
 	padding:10px;
 	
-	display:block;
+	margin-left: 20%;
+	margin-right: -20%;
 
 	
 	
