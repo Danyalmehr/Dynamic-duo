@@ -63,7 +63,8 @@ background-color: transparent;
 /*---------------------------------------------------------------------C_O_N_T_A_I_N_E_R --------------------------------------------------------------------*/
 
 #containerhome {
-	margin:2%;
+	left:320px;
+	align-content:center;
 	
 	padding:10px;
 	
@@ -83,7 +84,7 @@ background-color: transparent;
 	border:1px solid black;
 	margin-top:25px;
 	width:100%;
-	padding:5%;
+	padding:1%;
 	
 	
 	}
@@ -95,7 +96,7 @@ background-color: transparent;
 	border:1px solid black;
 	margin-top:25px;
 	width:100%;
-		padding:5%;
+		padding:1%;
 	
 	
 	}
@@ -106,7 +107,7 @@ background-color: transparent;
 	border-bottom-style:solid;
 	border:1px solid black;
 	width:100%;
-		padding:5%;
+		padding:1%;
 	
 	
 }
