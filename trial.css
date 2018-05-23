@@ -11,7 +11,7 @@ body {
 	width:100px;
 	padding:2px;
 }
-.nav a
+.nav a 
 {
 	font-size: 25px;
 	color:black;
@@ -22,6 +22,22 @@ body {
 
 	
 }
+table
+{
+	border: 2PX SOLID black;
+	border-bottom-style:solid;
+	border-radius: 10px;
+	padding-bottom:10px;
+	
+	}
+td
+{
+	font-size: 20px;
+	text-align:center;
+	padding:5PX;
+	
+	}
+	
 .nav {
 	margin-top:8%;
 	margin-left:35%;
@@ -34,8 +50,7 @@ background-color: transparent;
 background-color: transparent;
 
 image-color:red;
-border-bottom: 2PX SOLID #15F1C5;
-	border-bottom-style:groove;
+
 
 }
 
