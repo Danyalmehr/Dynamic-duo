@@ -1,209 +1,156 @@
-<<<<<<< HEAD
+
 <!doctype html>
 <html>
 <head>
+<link href="trial.css" rel="stylesheet" type="text/css">
+<link rel=”stylesheet” media=”screen and (min-width:320px) and (max-width:480px) “href=”css/yourstylesheet.css” />
+
+
 <meta charset="utf-8">
-<title>Home</title>
-<link href="main.css" rel="stylesheet" type="text/css">
-
-<script>
-function run_first() 
-	{
-		if(sessionStorage.item_id) 
-			{
-			document.getElementById(sessionStorage.item_id.toString()).style.backgroundColor= "gray";
-			}
-	}
-
-function nav_item_selected(item_id) 
-	{
-	for(i = 0; i < 6; i++)
-		 {
-			document.getElementById(i.toString()).style.backgroundColor = "";
-		}
-			document.getElementById(item_id.toString()).style.backgroundColor = "gray";
-			//store item_id in sessionStorage
-			sessionStorage.item_id = item_id;
-	}
-</script>
-
+<title>Untitled Document</title>
 </head>
 
-<body onLoad="run_first()">
-	<div id="wrapper">
-	<header>
-    	<h1>ABC School</h1>
-    </header>
-    
+<body>
 <div class="nav">
-    	
+    	<table>
+  
+  <tr>
+    <th><a href="" id="0" onClick="nav_item_selected(0)"><img class="nav-img" src="home.png" alt=""></a></th>
+    <th><a href=" performers.html" id="1"  onClick="nav_item_selected(3)"><img class="nav-img" src="EVENT.png" alt=""></a>    </th>
+     <th><a href=" performers.html" id="3"  onClick="nav_item_selected(3)"><img class="nav-img" src="637091-party-event.png" alt=""></a> </th>
+       <th> <a href="About us.html" id="4"  onClick="nav_item_selected(4)"><img  class="nav-img" src="download.png" alt=""></a></th>
+       <th><a href="Contact Us.html" id="5"  onClick="nav_item_selected(5)"><img  class="nav-img" src="contact-us-phone-icon_93337.jpeg" alt=""></a></th>
+       <th><a href="Membership.html" id="2"  onClick="nav_item_selected(2)"><img class="nav-img" src="76-512.png" alt=""></a></th>
+       
+      
+  </tr>
+  <tr>
+    <td>HOME</td>
+    <td>EVENT</td>
+    <td>OUR PERFORMERS</td>
+    <td>ABOUT US</td>
+    <td>CONTACT US</td>
+    <td>MEMBERSHIP</td>
+
+    </tr>
+  
+</table>
          
-         
-         
-         <a href="Membership.html" id="2"  onClick="nav_item_selected(2)">Membership</a>
-            	<a href="Contact Us.html" id="5"  onClick="nav_item_selected(5)">Contact Us</a>        
-            	<a href="About us.html" id="4"  onClick="nav_item_selected(4)">About us</a>
-            	<a href=" performers.html" id="3"  onClick="nav_item_selected(3)">Our performers</a>        
-         <div class="dropdown">
-				<button class="dropbtn" id="1">Event</button>
-					<div class="dropdown-menu">
-						<a href="past.html" onClick="nav_item_selected(1) ">Past</a>
-						<a href="upcoming.html" onClick="nav_item_selected(1)">Upcoming</a>
-					</div>
-		  </div>
-        <a href="" id="0" onClick="nav_item_selected(0)">Home</a><br><br><br>
+ <!DOCTYPE html>
+
+
+<html>
+<head>
+	<title>Home</title>
+	<meta name="author" content="Lindsay Ward, James Cook University" />
+	<link rel="stylesheet" href="mainstyles.css" type="text/css" />
+ 	<link href="https://fonts.googleapis.com/css?family=Dosis|Raleway" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+</head>
+<body>
+<a name="top" id="top"></a>
+<div id="header">
+	<a href="home.html"><div id="logo"> CossiePlay   </div></a>
+		<ul>
+		<li><a href="home.html" target="_self" class="active">Home</a></li>
+    	<li><a href="aboutus.html" target="_self" >About us</a></li>
+    	<li><a href="contact us.html" target="_self">Contact us</a></li>
+         <li class="shop"><a href="our shop.html" target="_self" ><span>Our Shop</span></a></li>
+          <li id="signupbutton" ><a href="signup.html" target="_self" >Signup</a></li>
+	</ul>
+
+
+
+</div>
+<div id="containerhome">
+
+<a href="signup.html">
+<div id="register">
+<h1>REGISTER NOW</h1>
+<h4>Come to a party by emailing us with following details</h4>
+<ul>
+<li>Your Name</li>
+<li>Contact Number</li>
+<li>How many people are coming??</li>
+</ul>
+</div>
+</a>
+
+<a href="our shop.html"><div id="head"><h1>OUR SHOP</h1></div></a>
+<a href="our shop.html">
+
+<div>
+<marquee id="slide" behavior="scroll" direction="up" scrollamount="20" overflow="hidden">
+<img src="images/ironman.jpg" alt="">
+<img src="images/Harley-Quinn.jpg" alt="">
+<img src="images/Diablo III – Demon Hunter.png" alt="">
+<img src="images/Princess Leia (White).png" alt="">
+<img src="images/Peter Pan.png" alt="">
+<img src="images/spiderman.png" alt="">
+<img src="images/Bayonetta.png" alt="">
+<img src="images/boromir.png" alt="">
+<img src="images/darth.jfif" alt="">
+<img src="images/devil.png" alt="">
+<img src="images/ironman.jpg" alt="">
+<img src="images/Harley-Quinn.jpg" alt="">
+<img src="images/Diablo III – Demon Hunter.png" alt="">
+<img src="images/Princess Leia (White).png" alt="">
+<img src="images/Peter Pan.png" alt="">
+<img src="images/spiderman.png" alt="">
+<img src="images/Bayonetta.png" alt="">
+<img src="images/boromir.png" alt="">
+<img src="images/darth.jfif" alt="">
+<img src="images/devil.png" alt="">
+<img src="images/ironman.jpg" alt="">
+<img src="images/Harley-Quinn.jpg" alt="">
+<img src="images/Diablo III – Demon Hunter.png" alt="">
+<img src="images/Princess Leia (White).png" alt="">
+<img src="images/Peter Pan.png" alt="">
+<img src="images/spiderman.png" alt="">
+<img src="images/Bayonetta.png" alt="">
+<img src="images/boromir.png" alt="">
+<img src="images/darth.jfif" alt="">
+<img src="images/devil.png" alt="">s
+</marquee>	
+</div>
+</a>
+<div id="upcoming">
+		<ul>
+        	<h1><span>Hot Deals</span></h1>
+    		<li>This month you can purchase 3 drinks for the price of 2 at the bar.</li>
+    		<li>First-time party-goers get a 50% discount on entry</li>
+    		<li>If you get a costume custom made, your next party entry is free. </li>
+    		<li>If you wear that costume wear your costume in to KFC on Stanton street and you can get a free drink with a 21-piece bucket. </li>
+        	<li><span style="color:#BEA107"><i>Tell them you’ve been to CossiePlay!</i></span></li>
+  		</ul>
+ </div>
+</div>
+<br>
+<br>
+<br>
+<div id="footer">
+  <p>|&copy; 2012 |<a href="#" target="_self">Cossieplay</a> |<a href="https://en.wikipedia.org/wiki/Cosplay">Wikipedia entry for cosplay</a> | <a href="http://www.cosplay.com">World largest cosplay community</a> | <a href="http://www.cosplaytutorial.com/index.php ">Resource for costumers</a> | </p>
+</div>
+</body>
+</html>
+        
+        		
+                 
+           
+                       
+              
+
+
+
+
+
          
       
          
   	
-        <a href="Membership.html" id="2"  onClick="nav_item_selected(2)">Membership</a>
-            	<a href="Contact Us.html" id="5"  onClick="nav_item_selected(5)">Contact Us</a>        
-            	<a href="About us.html" id="4"  onClick="nav_item_selected(4)">About us</a>
-            	<a href=" performers.html" id="3"  onClick="nav_item_selected(3)">Our performers</a>        
-         <div class="dropdown">
-				<button class="dropbtn" id="1">Event</button>
-					<div class="dropdown-menu">
-						<a href="past.html" onClick="nav_item_selected(1) ">Past</a>
-						<a href="upcoming.html" onClick="nav_item_selected(1)">Upcoming</a>
-					</div>
-		  </div>
-        <a href="" id="0" onClick="nav_item_selected(0)">Home</a>
+        
 </div>
 
-
-    <h1>Welcome to ABC School</h1>
-    <section id="col1">
-    	<h2>Section 1</h2>
-        <p>
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-       
-        </p>
-    </section>
-    <footer><img src="" alt="">Copyright 2018 by Townsville Community Music Centre</footer>
-    </div>
 </body>
 </html>
-=======
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Home</title>
-<link href="main.css" rel="stylesheet" type="text/css">
-
-<script>
-function run_first() 
-	{
-		if(sessionStorage.item_id) 
-			{
-			document.getElementById(sessionStorage.item_id.toString()).style.backgroundColor= "gray";
-			}
-	}
-
-function nav_item_selected(item_id) 
-	{
-	for(i = 0; i < 6; i++)
-		 {
-			document.getElementById(i.toString()).style.backgroundColor = "";
-		}
-			document.getElementById(item_id.toString()).style.backgroundColor = "gray";
-			//store item_id in sessionStorage
-			sessionStorage.item_id = item_id;
-	}
-</script>
-
-</head>
-
-<body onLoad="run_first()">
-	<div id="wrapper">
-	<header>
-    	<h1>ABC School</h1>
-    </header>
-    
-<div class="nav">
-    	
-         
-         
-         
-         <a href="Membership.html" id="2"  onClick="nav_item_selected(2)">Membership</a>
-            	<a href="Contact Us.html" id="5"  onClick="nav_item_selected(5)">Contact Us</a>        
-            	<a href="About us.html" id="4"  onClick="nav_item_selected(4)">About us</a>
-            	<a href=" performers.html" id="3"  onClick="nav_item_selected(3)">Our performers</a>        
-         <div class="dropdown">
-				<button class="dropbtn" id="1">Event</button>
-					<div class="dropdown-menu">
-						<a href="past.html" onClick="nav_item_selected(1) ">Past</a>
-						<a href="upcoming.html" onClick="nav_item_selected(1)">Upcoming</a>
-					</div>
-		  </div>
-        <a href="" id="0" onClick="nav_item_selected(0)">Home</a><br><br><br>
-         
-      
-         
-  	
-        <a href="Membership.html" id="2"  onClick="nav_item_selected(2)">Membership</a>
-            	<a href="Contact Us.html" id="5"  onClick="nav_item_selected(5)">Contact Us</a>        
-            	<a href="About us.html" id="4"  onClick="nav_item_selected(4)">About us</a>
-            	<a href=" performers.html" id="3"  onClick="nav_item_selected(3)">Our performers</a>        
-         <div class="dropdown">
-				<button class="dropbtn" id="1">Event</button>
-					<div class="dropdown-menu">
-						<a href="past.html" onClick="nav_item_selected(1) ">Past</a>
-						<a href="upcoming.html" onClick="nav_item_selected(1)">Upcoming</a>
-					</div>
-		  </div>
-        <a href="" id="0" onClick="nav_item_selected(0)">Home</a>
-</div>
-
-
-    <h1>Welcome to ABC School</h1>
-    <section id="col1">
-    	<h2>Section 1</h2>
-        <p>
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-        This is a test. This is a test. This is a test. 
-       
-        </p>
-    </section>
-    <footer><img src="" alt="">Copyright 2018 by Townsville Community Music Centre</footer>
-    </div>
-</body>
-</html>
->>>>>>> 4634585b8b80957f7e484b53fb44d6074332e054
