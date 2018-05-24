@@ -17,10 +17,11 @@ body
 	clear: both;
 	width:inherit;
 	height:30%;
-	padding:3%;
+	padding:4%;
 	background-color:#DDC2C2;
     text-align: center;
 	border-bottom:4px solid black;
+
 
 	
 
@@ -29,16 +30,18 @@ table
 {
 
 	
-	margin-left: 30%;
-	margin-right: -30%;
+	margin-left: 20%;
+	margin-right: -20%;
 
 	
 	}
+	
+	
 td
 {
 	text-align:center;
-	padding:5PX;
-	padding:10px;
+
+	padding:20px;
 	font-size:20px;
 	
 	}
@@ -50,15 +53,19 @@ td
 /*--------------------------------_F_O _O _T _E _R ----------------------------------*/
 #footer {
 	position:relative;
- 	display:block;
-	clear: both;
+ 	
+
 	width:inherit;
 	height:30%;
 	padding:3%;
-	background-color:#C0BEBE;
+	background-color:white;
     text-align: center;
 	border-top:4px solid black;
 
+}
+#footer-img1{display:inline-block;float:left;height:30%;	padding:3%;
+}
+#footer-img2{display:inline-block;float:right;height:30%;	padding:3%;
 }
 
 
@@ -82,7 +89,7 @@ td
 	border-bottom-style:solid;
 	border:1px solid black;
 	width:90%;
-	
+		margin-top:25px;
 	background-color:transparent;
 	padding:1% 3% 1% 3%;
 	
@@ -95,7 +102,7 @@ td
 	display:block;
 	border-bottom-style:solid;
 	border:1px solid black;
-	margin-top:25px;
+
 	width:90%;
 	padding:1% 3% 1% 3%;
 	}
