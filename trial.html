@@ -19,15 +19,15 @@
     <th><a href="" id="0" onClick="nav_item_selected(0)"><img class="nav-img" src="home.png" alt=""></a></th>
     <th><a href=" performers.html" id="1"  onClick="nav_item_selected(3)"><img class="nav-img" src="EVENT.png" alt=""></a>    </th>
      <th><a href=" performers.html" id="3"  onClick="nav_item_selected(3)"><img class="nav-img" src="637091-party-event.png" alt=""></a> </th>
-       <th> <a href="About us.html" id="4"  onClick="nav_item_selected(4)"><img  class="nav-img" src="download.png" alt=""></a></th>
-       <th><a href="Contact Us.html" id="5"  onClick="nav_item_selected(5)"><img  class="nav-img" src="contact-us-phone-icon_93337.jpeg" alt=""></a></th>
+       <th> <a href="About us.html" id="4"  onClick="nav_item_selected(4)"><img  class="nav-img" src="../about-us-icon.png" alt=""></a></th>
+       <th><a href="Contact Us.html" id="5"  onClick="nav_item_selected(5)"><img  class="nav-img" src="../4-Contact Us.png" alt=""></a></th>
        <th><a href="Membership.html" id="2"  onClick="nav_item_selected(2)"><img class="nav-img" src="76-512.png" alt=""></a></th>
        
       
   </tr>
   <tr>
-    <td>HOME</td>
-    <td>EVENT</td>
+    <td> HOME </td>
+    <td> EVENT </td>
     <td>OUR PERFORMERS</td>
     <td>ABOUT US</td>
     <td>CONTACT US</td>
@@ -36,7 +36,8 @@
     </tr>
   
 </table>
-         
+ </div>
+        
  
 <div id="containerhome">
 
@@ -59,23 +60,42 @@
 
 
 <a href="signup.html">
+<div id="registercontainer">
+<div id="registerInfo">
+ <h1>Became<br> a <br>member</h1>
+</div>
 
 <div id="register">
-<h1>one</h1>
-<h4>Come to a party by emailing us with following details</h4>
-<ul>
-<li>Your Name</li>
-<li>Contact Number</li>
-<li>How many people are coming??</li>
-</ul>
+  <form >
+        <p>
+       
+            <label for="name">Your First Name </label>
+            <input type="text" name="name" id="name" size="40"  placeholder="e.g. john"/>
+        
+
+        <br>
+        <label for="login">Your Last Name</label>
+        <input type="text" id="login" name="login" size="40" placeholder="e.g. jc123456"/>
+        <br>
+        <label for="email">Your Email Address</label>
+        <input type="text" name="email" id="email" size="40"  
+               placeholder="e.g abc@.pqr.com"/>
+        <br>
+     </p>
+            <input type="submit" value="Submit"/>
+      
+        <div><span id="message"></span></div>
+    </form>
+  </div>
+    </div>
 
 
-</div>
 </a>
 
 <div id="upcoming">
+<h1>three</h1>
 		<ul>
-        	<h1>three</h1>
+        	
     		<li>This month you can purchase 3 drinks for the price of 2 at the bar.</li>
     		<li>First-time party-goers get a 50% discount on entry</li>
     		<li>If you get a costume custom made, your next party entry is free. </li>
