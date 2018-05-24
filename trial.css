@@ -3,7 +3,7 @@
 
 @charset "utf-8";
 body
-{background-color:#DEDADA;
+{background-color:white;
 }
 .nav-img
 {
@@ -23,8 +23,8 @@ table
 {
 	border-bottom-style:solid;
 	padding-bottom:10px;
-	margin-left: 40%;
-	margin-right: -40%;
+	margin-left: 30%;
+	margin-right: -30%;
 
 	
 	}
@@ -52,10 +52,11 @@ background-color: transparent;
 	position:relative;
  	display:block;
 	clear: both;
-    background-color:transparent;
+	width:inherit;
+	height:30%;
+	padding:3%;
+	background-color:black;
     text-align: center;
-
-	
 
 }
 
@@ -65,13 +66,8 @@ background-color: transparent;
 /*---------------------------------------------------------------------C_O_N_T_A_I_N_E_R --------------------------------------------------------------------*/
 
 #containerhome {
-	
-	
 	padding:10px;
-	
-	margin-left: 20%;
-	margin-right: -20%;
-
+	margin:5%;
 	
 	
 }
@@ -84,9 +80,20 @@ background-color: transparent;
 	display:block;
 	border-bottom-style:solid;
 	border:1px solid black;
-	margin-top:25px;
 	width:100%;
-	padding:1%;
+	
+	background-color:#000000;
+	
+	
+	}
+	
+h1{
+	
+	margin-top:0;
+	font-size:1.5em;
+	width:100%;
+	display:block;
+	background-color:#0CF7D6;
 	
 	
 	}
@@ -98,18 +105,19 @@ background-color: transparent;
 	border:1px solid black;
 	margin-top:25px;
 	width:100%;
-		padding:1%;
+	
 	
 	
 	}
 #register
 
 {
+		margin-top:25px;
 	display:block;
 	border-bottom-style:solid;
 	border:1px solid black;
 	width:100%;
-		padding:1%;
+
 	
 	
 }
